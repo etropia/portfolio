@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roblox 3D Modeler Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Etropia</h1>
+    <p>Roblox 3D Modeler</p>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Roblox 3D modeler specializing in game-ready assets,
+        props, maps, and optimized models. I focus on clean topology
+        and performance-friendly designs.
+    </p>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+
+    <div class="contact-item">
+        <span>📧</span>
+        <a href="mailto:trueatoh@gmail.com">trueatoh@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+        <img src="images/discord.png" class="icon">
+        <a href="https://discord.com/users/1399764901014143100" target="_blank">
+            →
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <img src="images/roblox.png" class="icon">
+        <a href="https://www.roblox.com/users/profile?username=yoda258" target="_blank">
+            yoda258
+        </a>
+    </div>
+</section>
+
+<section class="portfolio">
+    <h2>My Work</h2>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="images/work1.png" onclick="openImage(this.src)">
+            <h3>Sci-Fi</h3>
+            <p>Time Machine</p>
+        </div>
+
+        <div class="card">
+            <img src="images/work2.png" onclick="openImage(this.src)">
+            <h3>Anime</h3>
+            <p>Pochita</p>
+        </div>
+
+        <div class="card">
+            <img src="images/work3.png" onclick="openImage(this.src)">
+            <h3>Anime</h3>
+            <p>Chain Saw Man</p>
+        </div>
+
+<div class="card">
+            <img src="images/work4.png" onclick="openImage(this.src)">
+            <h3>Anime</h3>
+            <p>Ichigo</p>
+        </div>
+
+<div class="card">
+            <img src="images/work5.png" onclick="openImage(this.src)">
+            <h3>Map</h3>
+            <p>Dead by Daylight</p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- Fullscreen Viewer -->
+<div id="lightbox" onclick="closeImage()">
+    <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
